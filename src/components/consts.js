@@ -1,0 +1,1 @@
+export const BASEURL = "http://www.omdbapi.com/?apikey=70f2985f&type=movie&"
