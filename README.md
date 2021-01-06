@@ -1,6 +1,6 @@
 # Shoppies
 
-[Live Demo](tbd)
+[Live Demo](http://salmansharif.me/shoppies/)
 
 ### What I have done
 - Created a Shoppies nomination app that meets and exceed the technical requriements in the following ways:
