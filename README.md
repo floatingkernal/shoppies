@@ -1,6 +1,6 @@
 # Shoppies
 
-[Live Demo](http://salmansharif.me/shoppies/)
+[Live Demo](https://salmansharif.me/shoppies/)
 
 ### What I have done
 - Created a Shoppies nomination app that meets and exceed the technical requriements in the following ways:
@@ -11,6 +11,7 @@
   - Some animations for loading when calling the api is also available. 
   - Shareable link is available and can be accessed by clicking the blue share icon on the top right side of the app
   - Used vuetify and vuejs to create a nice designed application for this assessment 
+  - Deployed it using github pages and made sure it has HTTPS enabled
 
 ### Technical challenges I faced
 - Too many api requests were being made. I only have a limit of 1000 requests per day and so I added the automatic searching when I had other components created. I still had an issue where every time any updates happen to the nominations, there are a multiple api call made to get the movies data. I solved this by using the store to keep track of the nominations and update that instead of relying on the url for the list. This allowed me to reduce my api call to a constant amount from a quadratics amount. Only when refreshing the page make multiple api calls again
